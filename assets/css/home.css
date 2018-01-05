@@ -1,0 +1,247 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/awesome/fontawesome-webfont.eot');
+  src: url('../fonts/awesome/fontawesome-webfont.eot') format('embedded-opentype'), url('../fonts/awesome/fontawesome-webfont.woff2') format('woff2'), url('../awesome/fonts/fontawesome-webfont.woff') format('woff'), url('../awesome/fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/awesome/fontawesome-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'iconvtc';
+  src: url('../fonts/iconvtc/vtc.eot');
+  src: url('../fonts/iconvtc/vtc.eot') format('embedded-opentype'), url('../fonts/iconvtc/vtc.woff') format('woff'), url('../fonts/iconvtc/vtc.woff') format('woff'), url('../fonts/iconvtc/vtc.ttf') format('truetype'), url('../fonts/iconvtc/vtc.svg') format('svg');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'miso';
+  src: url('../fonts/miso/miso-webfont.eot');
+  src: url('../fonts/miso/miso-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso/miso-webfont.woff2') format('woff2'), url('../fonts/miso/miso-webfont.woff') format('woff'), url('../fonts/miso/miso-webfont.ttf') format('truetype'), url('../fonts/miso/miso-webfont.svg#miso') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'misoregular';
+  src: url('../fonts/miso-regular/miso-regular-webfont.eot');
+  src: url('../fonts/miso-regular/miso-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso-regular/miso-regular-webfont.woff2') format('woff2'), url('../fonts/miso-regular/miso-regular-webfont.woff') format('woff'), url('../fonts/miso-regular/miso-regular-webfont.ttf') format('truetype'), url('../fonts/miso-regular/miso-regular-webfont.svg#misoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'misobold';
+  src: url('../fonts/miso-bold/miso-bold-webfont.eot');
+  src: url('../fonts/miso-bold/miso-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso-bold/miso-bold-webfont.woff2') format('woff2'), url('../fonts/miso-bold/miso-bold-webfont.woff') format('woff'), url('../fonts/miso-bold/miso-bold-webfont.ttf') format('truetype'), url('../fonts/miso-bold/miso-bold-webfont.svg#misobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'misolight';
+  src: url('../fonts/miso-light/miso-light-webfont.eot');
+  src: url('../fonts/miso-light/miso-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso-light/miso-light-webfont.woff2') format('woff2'), url('../fonts/miso-light/miso-light-webfont.woff') format('woff'), url('../fonts/miso-light/miso-light-webfont.ttf') format('truetype'), url('../fonts/miso-light/miso-light-webfont.svg#misolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hand';
+  src: url('../fonts/handsean/handsean-webfont.eot');
+  src: url('../fonts/handsean/handsean-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/handsean/handsean-webfont.woff2') format('woff2'), url('../fonts/handsean/handsean-webfont.woff') format('woff'), url('../fonts/handsean/handsean-webfont.ttf') format('truetype'), url('../fonts/handsean/handsean-webfont.svg#handsean') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* css header-portada */
+
+.wrap-header {
+  background: #ffc82c;
+  height: 103px;
+}
+
+.header-herramientas {
+  background-image: url(../img/portada-movil.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  position: relative;
+}
+
+.title-header {
+  background-color: #fff;
+  font-family: 'misoregular';
+  text-align: center;
+  font-size: 1.8em;
+  position: relative;
+  width: 70%;
+  left: 15%;
+  top: 28%;
+  padding: 2px 7px;
+  margin: 0;
+}
+
+.subtitle-header {
+  background: #ffc82c;
+  width: 32%;
+  padding: 15px 10px;
+  font-size: 2.2em;
+  position: relative;
+  top: 28%;
+  left: 15%;
+  font-family: misoRegular;
+  font-weight: bold;
+}
+
+/* fin css header-portada */
+
+/* CSS CONTENIDO-BENEFICIOS */
+
+.section-beneficios {
+  background: #EDF1F4;
+}
+
+.beneficios-herramientas {
+  padding: 5px 15px;
+}
+
+.title-beneficios {
+  border-bottom: solid 2px #2A2C2F;
+  text-align: center;
+  font-family: "miso";
+}
+
+/* carrousel */
+
+.container-carrousel {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.slider-set {
+  margin: 0;
+  padding: 0;
+  padding-left:15px;
+}
+
+.slider, .slider-drag {
+  width: auto;
+}
+
+.slider-drag {
+  cursor: -webkit-grab;
+}
+
+.slick-slide {
+  position: relative;
+  width: 128px;
+  margin-left: 5px;
+}
+
+.slick-slide:focus {
+  outline: none;
+}
+
+.slick-slide a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.slick-slide a:focus {
+  outline: none;
+}
+
+.slick-slide span {
+  background-color: #3a8999;
+  color: white;
+  padding: 40px 0;
+  font-size: 30px;
+  font-family: "Arial", "Helvetica";
+  text-align: center;
+  display: block;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-dots .slick-active {
+  font-weight: 700;
+}
+
+.item-beneficios {
+  background: #fff;
+  height: 100px;
+  text-align: center;
+  /* padding: 0 12px; */
+  margin: 15px 0px;
+  padding: 10px 25px;
+}
+
+.grilla-beneficios {
+  padding: 0 20px;
+}
+
+.pad-10 {
+  padding: 0 5px;
+}
+
+.descuento-beneficio {
+  border-bottom: 3px solid #ffc82c;
+  /* padding: 20px 0; */
+  margin-bottom: 22px;
+}
+
+.descuento-beneficio:after {
+  content: '';
+  position: relative;
+  top: 28px;
+  border-top: 10px solid #ffc82c;
+  border-right: 10px solid white;
+}
+
+/* fin css carrousel */
+
+/* FIN CSS CONTENIDO - BENEFICIOS */
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {
+  /* css header-portada (desktop) */
+  .header-herramientas {
+    background-image: url(../img/portada-desktop.jpeg);
+    height: 385px;
+  }
+  .title-header {
+    font-size: 4em;
+    width: 21.7%;
+    padding: 10px 20px;
+    text-align: left;
+  }
+  .wrap-header {
+    height: 390px;
+  }
+  /* fin---  css header-portada (desktop) */
+  /* css stilos seccion beneficios */
+  .section-beneficios {
+    padding: 20px 190px;
+  }
+  .title-beneficios h3 {
+    text-align: left;
+    font-size: 3.7em;
+    font-weight: 600;
+  }
+  /* fin ---  css stilos seccion beneficios */
+}
